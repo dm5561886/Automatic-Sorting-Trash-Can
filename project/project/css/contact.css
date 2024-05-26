@@ -1,0 +1,115 @@
+ul{
+    display:inline-block;
+    margin:0PX;
+}
+
+li{
+    list-style-type:none;
+    float: left;
+    text-align: center;
+}
+
+li a{
+    display: block;
+    padding: 20px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #FFC90E;
+}
+	
+#header	{
+		position: relative;
+		background: #FFF;
+	}
+.container {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+        padding: 0em 1em;
+	}
+#logo	{
+		position: absolute;
+		top: 3em;
+        color: black
+	}
+#logo a	{
+			display: block;
+			text-decoration: none;
+			font-size: 2.8em;
+			font-weight: 600;
+		}
+#nav{
+		position: absolute;
+		right: 6.5em;
+		top: 4.1em;
+        font-size:20px
+	}
+#header
+	{
+		position: relative;
+		background: #FFF;
+	}
+
+#header .container
+		{
+			position: relative;
+			padding: 4em 0em;
+		}
+.image
+	{
+		position: relative;
+		padding: 12em 0em;
+		background: url(../jpg/workspace8_high_res.jpg) no-repeat center;
+		background-size: cover;
+		color: #fff;
+	}
+.contact-form{
+    width: 50%;
+    margin: 50px auto 0;
+}
+
+.contact-form input[type=text],
+.contact-form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px;
+    outline: none;
+    border:  1px solid rgba(255,255,255,0.4);
+    border-radius: 0;
+    background-color: rgba(255,255,255,0.05);
+    color: black;
+}
+.contact-form textarea{
+    height: 150px;
+}
+.contact-form input[type=submit]{
+    display: block;
+    width: 200px;
+    margin: 40px auto 0;
+    padding: 15px;
+    border: 1px solid rgba(255,255,255,0.60);
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+.contact-form input[type=submit]:hover{
+    background-color: rgba(255,255,255,0.05);
+}
+.contact-form input[type=text]:focus,
+.contact-form textarea:focus{
+    box-shadow: 0 0 8px rgba(255,255,255,0.5)inset;
+}
+.contact{
+    padding: 80px 0 150px;
+    background-color:bisque
+}
+.heading{
+    display: block;
+    padding: 15px;
+    font-size: 3em;
+}
